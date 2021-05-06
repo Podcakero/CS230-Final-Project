@@ -3,9 +3,9 @@
 <?php
 $conn = null;
 
-$servername = '54.158.119.193';
-$username = 'dbmasteruser';
-$password = 's)LWM1F;e$7z|+#7w?ExQ!|12,,5COVZ';
+$servername = 'localhost';
+$username = 'cs230';
+$password = 'hYy!2YG.*ksoaK3[';
 $dbName = 'main';
 
 try {
