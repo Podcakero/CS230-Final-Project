@@ -1,0 +1,147 @@
+.bg {
+    background-image: url("../images/quizbg.jpg");
+    height: 100vh;
+      background-position: center;
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat; 
+      font-family: 'Roboto', sans-serif;
+
+  }
+
+.main{
+    padding: 50px 0;
+}
+
+.li {
+    color: white;
+}
+ 
+.main h1{
+    font-size: 42px;
+    color: rgb(253, 253, 253);
+    font-weight: 700;
+}
+ 
+.main p{
+    font-size: 18px;
+    color: #ffffff;
+    width: 70%;
+    margin: 15px auto;
+}
+ 
+.main p a {
+ text-decoration: none;
+
+ color: #ec1c23;
+ font-weight: 900;
+}
+ 
+.main ul{
+    margin-top: 50px;
+}
+ 
+.main ul li{
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s ease;
+ color: rgb(255, 255, 255);
+}
+ 
+.main ul li.active,
+.main ul li:hover{
+    background-color: #ec1c23;
+    color: #FFF;
+    border: 2px solid #ec1c23;
+}
+ 
+.main ul li:last-of-type{
+    margin-right: 0 ;
+}
+ 
+.main ul li:nth-of-type(3),
+.main ul li:nth-of-type(4),
+.main ul li:nth-of-type(5){
+    flex-grow: 2
+}
+ 
+.main .container-fluid{
+  overflow: hidden;
+  padding: 0;
+}
+ 
+.main .container-fluid .col-md-3{
+    padding: 0;
+    float: left;
+    transition: all 5s ease-in-out
+}
+ 
+.main .container-fluid img{
+    width: 100%
+}
+ 
+@media (max-width: 767px){
+    .main .container-fluid img{
+        margin-bottom: 15px
+    }
+} 
+h1{
+    color: black;
+    font-family: 'Consolas', Courier, monospace;
+}
+  .gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-container a{
+    background-color: lightgrey;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Gallery-container a:hover{
+    opacity: 70%;
+    text-decoration-color: goldenrod ;
+}
+
+img{
+    max-width: 220px;
+    height: 200px;
+    margin-top: 10px ;  
+}
+
+.center-me 
+{
+    display: flex;
+    justify-content: center;   
+}
+.card{
+    border-radius: 10px;
+    margin: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    width: 70%;
+    height:70%;
+    height: auto;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding:5px;
+    width: 50%;
+    height: 44%;
+    margin-top: 10px;  
+  
+   
+}
+
+.descript{
+    color:darkred;
+}

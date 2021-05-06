@@ -1,0 +1,90 @@
+.bg
+{
+    background-image: url("../images/followbg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+   
+main{
+    text-align: center;
+}
+
+h1{
+    color: rgb(187, 182, 189);
+    font-family: 'Consolas', Courier, monospace;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    font-family: 'Consolas', Courier, monospace;
+}
+
+h5{
+    color: rgb(78, 78, 78);
+    font-size: 100%;
+    font-family: 'Consolas', Courier, monospace;
+}
+
+p1{
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family: 'Consolas', Courier, monospace;
+}
+
+.gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-container a{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.Gallery-container a:hover{
+    opacity: 70%;
+    text-decoration-color: rgb(0, 0, 0) ;
+}
+
+img{
+    max-width: 125px;
+    height: 125px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.center-me
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+    max-width: 280px;
+    height: 300px;
+    width: 325 px;
+    padding: 5px;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 360px;
+    align-items: center;
+  }
+
+ 

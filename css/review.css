@@ -1,0 +1,63 @@
+main 
+{
+    font-family: 'Consolas', Courier, monospace;
+    text-align: center;
+}
+
+p
+{
+    color: black;
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+.imgR {
+    align-content: center;
+    max-width:65%;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+
+
+center {
+    max-width: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+
+}
+
+
+.test {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  
+  }
+
+  .columnM {
+      width: 33.33%;
+  }
+  
+ 
+
+.row {
+    display: flex;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

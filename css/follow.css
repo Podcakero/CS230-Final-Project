@@ -1,0 +1,25 @@
+.bg-cover
+{
+    background-image: url("../images/followbg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    color: rgb(187, 182, 189);
+    font-family: 'Consolas', Courier, monospace;
+}
+
+p2{
+    color: rgb(187, 182, 189);
+    font-size: 100%;
+    font-family: 'Consolas', Courier, monospace;
+}

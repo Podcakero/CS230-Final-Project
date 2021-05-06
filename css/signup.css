@@ -1,0 +1,44 @@
+.bg-cover 
+{
+    background-image: url("../images/background2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container 
+{
+    width: 50%;
+}
+
+.center-me 
+{
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+}
+
+.signup-form 
+{
+    border-radius: 50px;
+    background-color: rgba(255,255,255,.4);
+    backdrop-filter: blue(5px);
+ 
+    padding: 20px;
+    text-align: center;
+}
+
+input 
+{
+    margin-bottom: 10px;
+}
+.big-font{
+    font-size: 35px;
+}
+.medium-font{
+    font-size: 24px
+}

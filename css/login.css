@@ -1,0 +1,75 @@
+.bg-cover 
+{
+    background-image: url("../images/background2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-me 
+{
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+}
+
+.c_image
+{
+    height: 200px;
+    width: 200px;
+}
+
+.form-signin
+{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.4);
+    backdrop-filter: blue(5px);
+    text-align: center;
+}
+
+input
+{
+    margin-bottom: 10px;
+}
+
+img 
+{
+    max-width: 500px;
+    max-height: 200px;
+    margin: auto;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(47, 58, 58);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(47,58,100);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.big-font{
+    font-size: 35px;
+}
+.medium-font{
+    font-size: 24px
+}

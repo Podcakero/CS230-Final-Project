@@ -1,0 +1,84 @@
+.bg-cover
+{
+    background-image: url("../images/indexbg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    font-family: "arial";
+    text-align: center;
+    font-size: 110%;
+}
+
+.about{
+    background:rgb(1, 0, 59);
+    padding: 12px;
+}
+
+h1{
+    font-size: 175%;
+    color: rgb(202, 202, 202) ;
+}
+
+p{
+    font-size: 80%;
+    color:rgb(202, 202, 202);
+    padding: 8px 8px 8px 8px;
+}
+
+p2{
+    font-size: 125%;
+    color:rgb(121, 121, 121);
+    padding: 8px 8px 8px 8px;
+}
+
+img{
+    height: 160px;
+    width: 150px;
+    align-items: center;
+    padding: 8px 0px 8px 0px;
+
+}
+
+.row{
+    padding: 20px 20px 20px 20px;
+
+}
+
+.column{
+    margin-left: 60px;
+    float: inline-start;
+    margin-right: 60px;
+    width: 18%;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(40, 43, 44);
+    background-color: rgb(1, 0, 59,.8);
+    padding: 4px 4px 4px 4px;
+    align-items: center;
+    width: 325px;
+    height: 375px;
+}
+
+.container{
+    font-size: 80% ;
+
+}
+
+h2{
+    font-size: 120%;
+    color: rgb(202, 202, 202) ;
+}
+
+p1{
+    font-size: 125%;
+    color:rgb(126, 36, 121);
+}
